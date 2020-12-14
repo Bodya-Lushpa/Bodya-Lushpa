@@ -944,9 +944,11 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
-    $(".ul_menu_blog li:first-child a").on("click", function (){
-        $(".ul_menu_blog li").toggle();
-    });
+    if ($(window).width() <= '900'){
+        $(".ul_menu_blog li:first-child a").on("click", function (){
+            $(".ul_menu_blog li").toggle();
+        });
+    }
 </script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>

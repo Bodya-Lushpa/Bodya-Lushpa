@@ -4055,4 +4055,31 @@ textarea {
   .btn_page_nav_article a img {
     margin: 0 5px;
   }
+  div.article_page_text_img_block > img:nth-child(1){
+    margin-bottom: 7px;
+  }
+  div.article_page_text_img_block > img:nth-child(2){
+    display: inline-block;
+    width: 48%;
+    height: 275px;
+  }
+  .article_page_text_img_block_last{
+    display: inline-block;
+    width: 48.24%;
+    height: 280px;
+    vertical-align: top;
+    margin-right: 0;
+  }
+  .article_page_text_img_block_last img {
+    width: 100%;
+    height: 132px;
+    margin: 0;
+  }
+  .article_page_text_img_block_last img:first-child{
+    margin-bottom: 7px;
+  }
+  div.article_page_text_img_block2 > img:nth-child(2){
+    width: 100%;
+    height: auto;
+  }
 }
