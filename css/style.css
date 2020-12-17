@@ -4275,6 +4275,10 @@ textarea {
   margin-right: 8px;
   height: 34px;
   margin-top: 15px;
+  opacity: 0.6;
+}
+.reviews_product_item_class_active{
+  opacity: 1;
 }
 
 .reviews_product_item_class img{
@@ -4286,7 +4290,7 @@ textarea {
   display: inline-block;
 }
 .reviews_product_item_class span{
-  color: rgba(20, 20, 20, 0.5);
+  color: rgba(20, 20, 20);
   line-height: 26px;
   margin-left: 4px;
   font-size: 16px;
